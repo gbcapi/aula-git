@@ -1,0 +1,61 @@
+@font-face {
+    font-family:"supermario";
+    src: url(./assents/fontes/RetroMario-Regular.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 5.5rem;
+    font-family: supermario;
+    
+    text-shadow: .3rem .3rem .3rem blue;
+    
+}
+
+.perfil {
+    width: 30rem;
+    height: auto;
+    border-radius: 10em;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.conteudo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 .3rem green; 
+    border-radius: 5rem;
+
+
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: rgb(0, 0, 255);
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
