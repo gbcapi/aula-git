@@ -49,6 +49,7 @@ O intruito desde repositorio é aprender as melhores praticas de versionamento d
 ## Instruções GIT
 | Introdução | Descrição|
 |-|-|
+| git init|Inicializa um novo repositório Git|
 | git add | Adiciona um arquivo |
 | git status | Mostra o estado atual do repositório |
 | git commit -m "<mensagem>" | Salva as mudanças no repositório local com uma mensagem |
